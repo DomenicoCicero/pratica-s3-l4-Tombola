@@ -48,3 +48,24 @@ h2 {
   font-weight: bold;
   color: brown;
 }
+
+.cartella-container {
+  width: 30%;
+  margin: 5%;
+  margin-block: 5%;
+  border: 2px solid black;
+  padding: 10%;
+  display: inline-block;
+}
+
+.single-cell-cartella {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+}
+
+.single-cell-cartella h3 {
+  text-align: center;
+}

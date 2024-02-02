@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <h1>Tombola</h1>
-      <div id="calendar">
+      <div id="tabellone">
         <!-- le celle della tombola verranno posizionate qui -->
         <!-- <div class="single-cell-tombola">
                 <h3>1</h3>
@@ -20,9 +20,20 @@
         <h3></h3>
       </div>
     </div>
-    <div class="cartella-container">
-      <h2>Cartella Player</h2>
+    <div class="input-cartella">
+      <form>
+        <label for="cartella-inp">Inserisci il numero di cartelle</label>
+        <input type="text" name="cartella-inp" required />
+        <button type="button">Seleziona</button>
+      </form>
     </div>
-    <script src="./js/index.js"></script>
+    <div class="cartella-container-general">
+      <div class="cartella-container">
+        <h2>Cartella Player</h2>
+      </div>
+    </div>
+
+    <script src="./js/index-completo.js"></script>
+    <!-- <script src="./js/index.js"></script> -->
   </body>
 </html>
